@@ -6,6 +6,8 @@ const videos = [
   { id: 1, src: "/testemunho2.mp4", title: "Saúde" },
   { id: 2, src: "/testemunho1.mp4", title: "Segurança" },
   { id: 3, src: "/testemunho3.mp4", title: "Acolhimento" },
+  { id: 4, src: "/testemunho4.mp4", title: "Mudança" },
+  { id: 5, src: "/testemunho4.mp4", title: "Acompanhamento" },
 ];
 
 // 🔹 Individual Video Player
@@ -194,9 +196,7 @@ export function VideoCarouselSection() {
     <div className="min-h-screen bg-black flex flex-col pb-10">
       {/* Header */}
       <div className="p-4 py-10 text-center">
-        <h1 className="text-2xl font-bold text-white mb-2">
-          O que estão falando..
-        </h1>
+        <h1 className="text-2xl font-bold text-white mb-2">Nossos membros</h1>
         <p className="text-gray-400 text-sm">Deslize para explorar</p>
       </div>
 

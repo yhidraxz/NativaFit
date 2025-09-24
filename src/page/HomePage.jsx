@@ -28,9 +28,9 @@ export function Home() {
       <section id="beneficios">
         <BulletSection />
       </section>
-      <section>
+      {/* <section>
         <TeamVideoSection />
-      </section>
+      </section> */}
       <section>
         <VideoCarouselSection />
       </section>

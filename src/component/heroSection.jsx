@@ -16,16 +16,19 @@ export function HeroSection() {
       {/* Content */}
       <div className="relative ml:-top-20 z-10 flex flex-col items-center justify-start  h-full text-center px-4 ml:justify-center">
         {/* Title */}
-        <h1 className="mt-24 text-4xl md:text-6xl font-extrabold drop-shadow-md ml:pb-8">
-          <span className="text-primary">Poucos</span> têm acesso.. <br />
-          Mas <span className="text-primary">todos</span> percebem o resultado
+        <h1 className="mt-28 text-4xl md:text-6xl font-extrabold drop-shadow-md ml:pb-8">
+          Um novo conceito em cuidados com o{" "}
+          <span className="text-primary">Corpo</span> e{" "}
+          <span className="text-primary">Mente</span> por meio de exercícios e
+          alimentação
         </h1>
 
         {/* Subtitle */}
         <p className="text-base font-sans-serif sm:text-4xl text-base-light-100 max-w-2xl mb-12">
-          Tenha uma experiência de performance e bem estar, para a{" "}
-          <span className="text-base-light-100">elite</span> que valoriza tempo,
-          resultado e saúde
+          O lugar certo certo para quem nunca se identificou com academias
+          tradicionais, mas deseja{" "}
+          <span className="text-base-light-100">transformar</span> o corpo e a
+          saúde de forma segura e personalizada
         </p>
 
         {/* Silver Button with polished effect */}

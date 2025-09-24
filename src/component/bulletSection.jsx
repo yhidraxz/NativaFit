@@ -13,28 +13,23 @@ export function BulletSection() {
   const benefits = [
     {
       icon: <FaAppleAlt />,
-      title: "Energia e saúde",
-      text: "Melhore sua saúde e energia com a nossa nutricionista",
-    },
-    {
-      icon: <FaHeartbeat />,
-      title: "Avaliações físicas",
-      text: "Garanta seu progresso com avaliações periódicas",
-    },
-    {
-      icon: <FaLeaf />,
-      title: "Higiene garantida",
-      text: "Oferecemos toalhas aromatizadas e individuais",
-    },
-    {
-      icon: <FaMusic />,
-      title: "Ambiente luxuoso",
-      text: "Experiência premium com sistema de som de cinema e climatização",
+      title: "Exclusividade",
+      text: "Ambiente sem lotação com controle de pessoas em cada horário",
     },
     {
       icon: <FaDumbbell />,
+      title: "Acompanhamento integral",
+      text: "Acompanhamento integral e individual com nutricionista e personal trainer",
+    },
+    {
+      icon: <FaHeartbeat />,
+      title: "Avaliações",
+      text: "Avaliação física e nutricional com equipe multidisciplinar",
+    },
+    {
+      icon: <FaMusic />,
       title: "Conforto e segurança",
-      text: "Atenção individual para técnica, segurança e evolução",
+      text: "Ambiente confortável com estacionamento integrado, conforto e segurança",
     },
   ];
 
@@ -114,7 +109,7 @@ export function BulletSection() {
               Reservar visita
             </a>
           </div>
-          <div>
+          {/* <div>
             <h2 className="mt-20 text-3xl md:text-4xl font-extrabold mb-6">
               Seu treino, nosso cuidado
             </h2>
@@ -122,7 +117,7 @@ export function BulletSection() {
               Cada cliente acompanha sua evolução com um personal trainer
               dedicado e todo o suporte da nossa equipe.
             </p>
-          </div>
+          </div> */}
         </div>
       </div>
     </div>
