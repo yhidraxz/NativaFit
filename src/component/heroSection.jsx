@@ -1,69 +1,48 @@
-import { PrimaryButton } from "./primaryButton.jsx";
+import React from "react";
 
 export function HeroSection() {
   return (
-    <section
-      className={`
-        relative w-full h-screen bg-cover bg-center
-        bg-[url('/MobHeroSection.webp')] lg:bg-[url('/src/assets/fachadaWit.png')]
-      `}
-    >
-      {/* Dark overlay */}
-      <div className="absolute inset-0 bg-[#232323]/70"></div>
-      <div className="absolute inset-0 bg-gradient-to-b from-black/80 to-transparent to-60%"></div>
-      <div className="absolute inset-0 bg-gradient-to-t from-black/95  to-transparent to-50%"></div>
+    <div className="relative h-screen w-full bg-cover bg-center text-white bg-[url('/MobHeroSection.webp')]">
+      {/* Dark overlay for readability */}
+      <div className="absolute inset-0 bg-black/50"></div>
 
-      {/* Content */}
-      <div className="relative ml:-top-20 z-10 flex flex-col items-center justify-start  h-full text-center px-4 ml:justify-center">
-        {/* Title */}
-        <h1 className="mt-28 text-4xl md:text-6xl font-extrabold drop-shadow-md ml:pb-8">
-          Um novo conceito em cuidados com o{" "}
-          <span className="text-primary">Corpo</span> e{" "}
-          <span className="text-primary">Mente</span> por meio de exercícios e
-          alimentação
+      {/* Navbar */}
+      <nav className="absolute top-0 left-0 right-0 flex justify-between items-center px-6 py-4 bg-black z-20">
+        {/* Logo + Name */}
+        <div className="flex items-center space-x-6">
+          <img src="/witLogo.png" alt="WIT Logo" className="h-8 w-auto" />
+          <span className="font-bold text-lg tracking-wide">W I T</span>
+        </div>
+
+        {/* Right side */}
+        <div className="flex items-center gap-4">
+          <button className="bg-white text-black px-4 py-2 font-medium text-sm">
+            Entre em contato
+          </button>
+          <div className="text-2xl font-bold cursor-pointer">☰</div>
+        </div>
+      </nav>
+
+      {/* Hero Content */}
+      <div className="absolute inset-0 flex flex-col justify-center px-6 max-w-xl z-10">
+        <h1 className="text-3xl md:text-5xl font-bold leading-tight mb-8 mt-8">
+          UM NOVO CONCEITO EM CUIDADO COM A SAÚDE
         </h1>
-
-        {/* Subtitle */}
-        <p className="text-base font-sans-serif sm:text-4xl text-base-light-100 max-w-2xl mb-12">
-          O lugar certo certo para quem nunca se identificou com academias
-          tradicionais, mas deseja{" "}
-          <span className="text-base-light-100">transformar</span> o corpo e a
-          saúde de forma segura e personalizada
+        <p className="text-base mb-8">
+          para quem nunca se identificou com academias tradicionais, mas deseja
+          cuidar de seu corpo e saúde de forma segura e personalizada.
         </p>
-
-        {/* Silver Button with polished effect */}
-        <PrimaryButton
-          text="Marque uma experiência exclusiva"
-          className="bg-primary rounded-xl ml:btn-lg"
-        />
+        <button className="bg-white text-black px-6 py-3 font-semibold text-sm w-fit">
+          Marcar experiência exclusiva
+        </button>
       </div>
-    </section>
-  );
-  // return (
-  //   <div className="hero min-h-screen bg-base-200 px-4">
-  //     <div className="hero-content text-center flex-col lg:flex-row">
-  //       <div>
-  //         <h1 className="text-3xl lg:text-5xl md:text-7xl font-bold leading-tight">
-  //           Agência especializada em{" "}
-  //           <span className="text-accent block lg:inline">
-  //             Crescimento estratégico
-  //           </span>
-  //         </h1>
-  //         <p className="py-6 opacity-70 text-base lg:text-lg md:text-xl">
-  //           Se você quer aumentar suas vendas e escalar{" "}
-  //           <br className="hidden lg:block" />a Ace é a solução
-  //         </p>
-  //         <PrimaryButton
-  //           text="Começar agora"
-  //           className="bg-accent text-black btn-md lg:btn-xl"
-  //           href="#formulario"
-  //         />
-  //       </div>
-  //     </div>
-  //   </div>
-  // );
-}
 
-//        <h1 className="text-5xl md:text-6xl font-extrabold bg-silver-gradient bg-clip-text text-transparent drop-shadow-md">
-//            Wit Boutique Studio
-//        </h1>
+      {/* Bottom Right Circle Arrow */}
+      <div className="absolute bottom-6 right-6 z-10">
+        <div className="w-10 h-10 border border-white rounded-full flex items-center justify-center text-lg">
+          ↓
+        </div>
+      </div>
+    </div>
+  );
+}
