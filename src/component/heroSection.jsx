@@ -2,7 +2,7 @@ import React from "react";
 
 export function HeroSection() {
   return (
-    <div className="relative h-screen w-full bg-cover bg-center text-white bg-[url('/MobHeroSection.webp')]">
+    <div className="relative h-[710px] w-full bg-cover bg-center text-white bg-[url('/MobHeroSection.webp')]">
       {/* Dark overlay for readability */}
       <div className="absolute inset-0 bg-black/50"></div>
 
@@ -25,14 +25,14 @@ export function HeroSection() {
 
       {/* Hero Content */}
       <div className="absolute inset-0 flex flex-col justify-center px-6 max-w-xl z-10">
-        <h1 className="text-3xl md:text-5xl font-bold leading-tight mb-8 mt-8">
-          UM NOVO CONCEITO EM CUIDADO COM A SAÚDE
+        <h1 className="text-4xl md:text-6xl font-bold leading-tight mb-8 mt-12">
+          O MAIS NOVO CONCEITO..
         </h1>
-        <p className="text-base mb-8">
-          para quem nunca se identificou com academias tradicionais, mas deseja
-          cuidar de seu corpo e saúde de forma segura e personalizada.
+        <p className="text-lg mb-8">
+          Cuide do seu Corpo e Saúde, de forma Segura, Personalizada, e longe
+          das Academias Tradicionais
         </p>
-        <button className="bg-white text-black px-6 py-3 font-semibold text-sm w-fit">
+        <button className="bg-white text-black px-6 py-3 font-semibold text-lg w-fit">
           Marcar experiência exclusiva
         </button>
       </div>

@@ -20,7 +20,7 @@ export function AboutSection() {
   return (
     <section className="relative w-full py-20 px-6 md:px-20 bg-black text-white">
       {/* Heading */}
-      <h2 className="text-center text-3xl md:text-4xl font-extrabold mb-10 bg-silver-gradient bg-clip-text text-transparent">
+      <h2 className="text-center text-3xl md:text-4xl font-medium mb-10 bg-silver-gradient bg-clip-text text-transparent">
         NOSSA ESTRUTURA
       </h2>
 

@@ -238,7 +238,7 @@ export function VideoCarouselSection() {
       <div className="text-center">
         <PrimaryButton
           text="Quero fazer parte do Wit"
-          className="bg-primary items-center rounded-xl ml:btn-lg w-3/4 mt-8 transform animate-bounce
+          className="items-center bg-white text-black ml:btn-lg w-3/4 mt-8
         "
         />
       </div>
