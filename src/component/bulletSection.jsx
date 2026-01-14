@@ -13,23 +13,23 @@ export function BulletSection() {
   const benefits = [
     {
       icon: <FaAppleAlt />,
-      title: "Exclusividade",
-      text: "Ambiente sem lotação com controle de pessoas em cada horário",
+      title: "Saúde de verdade",
+      text: "Treinos planejados para melhorar sua saúde, prevenir dores e respeitar o seu ritmo.",
     },
     {
       icon: <FaDumbbell />,
-      title: "Acompanhamento integral",
-      text: "Acompanhamento integral e individual com nutricionista e personal trainer",
+      title: "Conforto no dia a dia",
+      text: "Ambiente pensado para você treinar com conforto, tranquilidade e sem excessos.",
     },
     {
       icon: <FaHeartbeat />,
-      title: "Avaliações",
-      text: "Avaliação física e nutricional com equipe multidisciplinar",
+      title: "Segurança em cada treino",
+      text: "Acompanhamento profissional para garantir execução correta e evitar lesões.",
     },
     {
       icon: <FaMusic />,
-      title: "Conforto e segurança",
-      text: "Ambiente confortável com estacionamento integrado, conforto e segurança",
+      title: "Qualidade de vida e estética",
+      text: "Resultados estéticos alinhados com bem-estar, disposição e mais qualidade de vida.",
     },
   ];
 

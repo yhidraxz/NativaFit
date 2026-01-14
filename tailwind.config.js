@@ -15,8 +15,8 @@ export default {
         scalePulse: "scalePulse 1.5s ease-in-out infinite",
       },
       colors: {
-        "base-100": "#232323",
-        primary: "#dbbb90",
+        "base-100": "#182b0d",
+        primary: "#b9b32b",
         accent: "#f0f02d",
         "base-light-100": "#f4f2f1",
       },

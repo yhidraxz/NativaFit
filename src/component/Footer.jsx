@@ -1,10 +1,10 @@
 export function Footer() {
   return (
-    <footer className="footer sm:footer-horizontal bg-neutral text-neutral-content px-10 py-5">
+    <footer className="footer sm:footer-horizontal bg-base-100 text-neutral-content px-10 py-5">
       <aside>
-        <img src="/witLogo.png" className="h-[3rem] w-[2.781rem] mb-2" />
+        <img src="/logoNativaSem.png" className="h-[3rem] w-[2.781rem] mb-2" />
         <p>
-          Wit Boutique
+          NativaFit
           <br />
           Todos direitos reservados
         </p>
