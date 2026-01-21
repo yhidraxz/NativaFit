@@ -1,12 +1,5 @@
 // BulletSection.jsx
-import {
-  FaAppleAlt,
-  FaHeartbeat,
-  FaMusic,
-  FaDumbbell,
-  FaLeaf,
-  FaSpa,
-} from "react-icons/fa";
+import { FaAppleAlt, FaHeartbeat, FaDumbbell, FaSpa } from "react-icons/fa";
 import React from "react";
 
 export function BulletSection() {
@@ -27,7 +20,7 @@ export function BulletSection() {
       text: "Acompanhamento profissional para garantir execução correta e evitar lesões.",
     },
     {
-      icon: <FaMusic />,
+      icon: <FaSpa />,
       title: "Qualidade de vida e estética",
       text: "Resultados estéticos alinhados com bem-estar, disposição e mais qualidade de vida.",
     },
