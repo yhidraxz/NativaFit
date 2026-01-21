@@ -99,14 +99,14 @@ export function BulletSection() {
 
           <div className="mt-8 flex justify-center">
             <a
-              href="#contact"
+              href="#projetos"
               className="inline-block px-6 py-3 rounded-lg font-semibold text-[#232323] shadow-md"
               style={{
                 background:
                   "linear-gradient(135deg, #fff1b8 0%, #f6e27a 20%, #d4af37 45%, #b8860b 65%, #e7c74d 80%, #fff8d0 100%)",
               }}
             >
-              Reservar visita
+              Ver Projetos
             </a>
           </div>
           {/* <div>

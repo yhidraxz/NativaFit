@@ -2,7 +2,7 @@ import React from "react";
 
 export function HeroSection() {
   return (
-    <div className="relative h-[710px] w-full bg-cover bg-center text-white bg-[url('/PH1.jpg')]">
+    <div className="relative h-[710px] w-full bg-cover bg-center text-white bg-[url('/nativaFrente.jpg')]">
       {/* Dark overlay for readability */}
       <div className="absolute inset-0 bg-black/50"></div>
 
@@ -27,14 +27,21 @@ export function HeroSection() {
       {/* Hero Content */}
       <div className="absolute inset-0 flex flex-col justify-center px-6 max-w-xl z-10">
         <h1 className="text-4xl md:text-6xl font-bold leading-tight mb-8 mt-12">
-          Seu corpo merece cuidado de verdade.
+          Qualidade de vida <br /> Estética e <br /> Saúde
         </h1>
         <p className="text-lg mb-8">
-          Saúde, qualidade de vida e estética com metodologia exclusiva e
-          profissionais que cuidam de você.
+          Estrutura moderna, profissionais presentes e treinos direcionados para
+          gerar resultado real.
         </p>
-        <button className="bg-white text-black px-6 py-3 font-semibold text-lg w-fit">
-          Ver Planos Exclusivos
+        <button
+          onClick={() =>
+            document
+              .querySelector("#projetos")
+              ?.scrollIntoView({ behavior: "smooth" })
+          }
+          className="bg-white text-black px-6 py-3 font-semibold text-lg w-fit"
+        >
+          Começar Agora
         </button>
       </div>
 

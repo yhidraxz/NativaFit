@@ -63,7 +63,7 @@ export function ServicesSection() {
             href="#contact"
             className="inline-block px-6 py-3 rounded-lg font-semibold bg-white text-black"
           >
-            Reservar visita
+            Falar com um atendente
           </a>
         </div>
       </div>

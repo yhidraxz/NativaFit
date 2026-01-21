@@ -38,7 +38,7 @@ export function Home() {
       <section id="formulario">
         <Location />
       </section>
-      <section>
+      <section id="projetos">
         <PlansSection />
       </section>
       {/* <section>

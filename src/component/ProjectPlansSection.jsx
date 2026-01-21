@@ -24,7 +24,7 @@ function PlanCard({ plan, isActive }) {
       </ul>
 
       <button className="w-full bg-white text-black py-3 rounded-lg font-bold">
-        Reservar visita
+        Falar com um Atendente
       </button>
     </div>
   );

@@ -12,3 +12,7 @@
 .scrollbar-hide::-webkit-scrollbar {
   display: none; /* Chrome, Safari */
 }
+
+html {
+  scroll-behavior: smooth;
+}
