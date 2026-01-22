@@ -26,7 +26,7 @@ export function HeroSection() {
 
       {/* Hero Content */}
       <div className="absolute inset-0 flex flex-col justify-center px-6 max-w-xl z-10">
-        <h1 className="text-4xl md:text-6xl font-bold leading-tight mb-8 mt-12">
+        <h1 className="text-4xl md:text-6xl font-display font-bold leading-tight mb-8 mt-12">
           Qualidade de vida <br /> Estética e <br /> Saúde
         </h1>
         <p className="text-lg mb-8">

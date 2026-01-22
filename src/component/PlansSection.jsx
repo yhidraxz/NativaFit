@@ -6,8 +6,8 @@ export function PlansSection() {
     <div className="min-h-screen bg-black flex flex-col">
       {/* Header */}
       <div className="text-center py-12">
-        <h2 className="text-3xl font-bold text-white mb-2">
-          Planos que se adaptam a você
+        <h2 className="text-3xl font-display font-bold text-white mb-2">
+          Planos que se adaptam <br /> a Você
         </h2>
         <p className="text-gray-400">
           Escolha o projeto ideal para o seu momento

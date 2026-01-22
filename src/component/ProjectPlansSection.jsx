@@ -81,7 +81,7 @@ export function ProjectPlansSection({ title, subtitle, plans }) {
     <section className="bg-black flex flex-col py-24 pb-20">
       {/* Header */}
       <div className="text-center px-6 mb-14">
-        <h1 className="text-4xl md:text-5xl font-extrabold text-white mb-4">
+        <h1 className="text-4xl md:text-5xl font-display font-extrabold text-white mb-4">
           {title}
         </h1>
         <p className="text-gray-400 max-w-xl mx-auto">{subtitle}</p>

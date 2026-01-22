@@ -18,7 +18,7 @@ export function Home() {
       <section className="relative w-full bg-base-100">
         {/* Heading section */}
         <div className="py-4 md:px-20 text-center bg-black/80">
-          <h2 className="text-3xl md:text-4xl font-medium">
+          <h2 className="text-3xl md:text-4xl font-display font-medium">
             Mexa o corpo. <br />
             Cuide da sua saúde.
           </h2>

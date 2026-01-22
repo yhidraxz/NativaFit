@@ -27,6 +27,7 @@ export default {
           "linear-gradient(135deg, #fff1b8 0%, #f6e27a 20%, #d4af37 45%, #b8860b 65%, #e7c74d 80%, #fff8d0 100%)",
       },
       fontFamily: {
+        display: ["Oswald"],
         sans: ["Inter", "ui-sans-serif", "sans-serif", "system-ui"],
       },
       screens: {

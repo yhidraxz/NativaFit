@@ -20,7 +20,7 @@ export function ReusableHero({
       {/* Conteúdo */}
       <div className="relative z-10 flex items-center justify-center h-full">
         <div className="text-center px-6 max-w-3xl">
-          <h1 className="text-4xl md:text-5xl font-extrabold text-white mb-6 leading-tight">
+          <h1 className="text-4xl md:text-5xl font-display font-extrabold text-white mb-6 leading-tight">
             {title}
           </h1>
 
