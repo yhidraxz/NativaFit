@@ -42,7 +42,7 @@ export function BulletSection() {
       <div className="relative z-10 pt-20 pb-6 px-6 md:px-20 bg-gradient-to-tr from-black to-base-100">
         <div className="max-w-6xl mx-auto">
           <h3 className="text-4xl md:text-3xl font-display font-extrabold text-left mb-6 text-primary bg-gold-gradient bg-clip-text text-transparent">
-            Não está convencido?..
+            Não está <br /> convencido?..
           </h3>
 
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
