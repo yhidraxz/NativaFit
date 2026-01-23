@@ -8,6 +8,7 @@ export function ReusableHero({
   customDivCss = "",
   buttonText,
   onClick,
+  buttonLink,
 }) {
   return (
     <section
@@ -27,14 +28,26 @@ export function ReusableHero({
           <p className="text-gray-300 text-lg mb-10">{subtitle}</p>
 
           {/* CTA */}
-          {buttonText && (
-            <button
-              onClick={onClick}
-              className="w-full bg-white text-black py-3 rounded-lg font-bold"
-            >
-              {buttonText}
-            </button>
-          )}
+          {buttonText &&
+            (buttonLink ? (
+              <a
+                href={buttonLink}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-block w-full"
+              >
+                <button className="w-full bg-white text-black py-3 rounded-lg font-bold">
+                  {buttonText}
+                </button>
+              </a>
+            ) : (
+              <button
+                onClick={onClick}
+                className="w-full bg-white text-black py-3 rounded-lg font-bold"
+              >
+                {buttonText}
+              </button>
+            ))}
         </div>
       </div>
     </section>

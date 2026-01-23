@@ -94,14 +94,16 @@ export function ServicesSection() {
         {/* CTA */}
         <div className="mt-14 flex justify-center">
           <a
-            href="#contact"
+            href="https://wa.me/5591993255856?text=Oi!%20Gostaria%20de%20mais%20informa%C3%A7%C3%B5es%20sobre%20a%20nativa"
+            target="_blank"
+            rel="noopener noreferrer"
             className="
-              px-8 py-4 rounded-xl
-              font-bold text-black
-              bg-white
-              transition-all duration-200
-              hover:scale-95 hover:opacity-90
-            "
+    px-8 py-4 rounded-xl
+    font-bold text-black
+    bg-white
+    transition-all duration-200
+    hover:scale-95 hover:opacity-90
+  "
           >
             Falar com um atendente
           </a>

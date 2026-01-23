@@ -28,6 +28,7 @@ export function PlansSection() {
               "Musculação",
               "Aulas coletivas",
             ],
+            link: "https://wa.me/5591993255856?text=Ol%C3%A1!%20Gostaria%20de%20fechar%20uma%20di%C3%A1ria%20na%20Nativa",
           },
           {
             id: 2,
@@ -42,6 +43,7 @@ export function PlansSection() {
               "Aulas coletivas",
             ],
             highlight: true,
+            link: "https://wa.me/5591993255856?text=Ol%C3%A1!%20Gostaria%20de%20fechar%20um%20plano%20mensal%20na%20Nativa",
           },
           {
             id: 3,
@@ -54,6 +56,7 @@ export function PlansSection() {
               "Programa de Treino individual",
               "Melhor custo-benefício",
             ],
+            link: "https://wa.me/5591993255856?text=Ol%C3%A1!%20Gostaria%20de%20fechar%20um%20plano%20anual%20na%20Nativa",
           },
         ]}
       />{" "}
@@ -67,6 +70,9 @@ export function PlansSection() {
           "bg-gradient-to-b from-black/0 via-base-100/30 to-base-100"
         }
         buttonText={"Quero projeto Família"}
+        buttonLink={
+          "https://wa.me/5591993255856?text=Ol%C3%A1!%20Gostaria%20de%20participar%20do%20projeto%20Fam%C3%ADlia"
+        }
       />
       <ReusableHero
         title={"Projeto Brothers"}
@@ -78,6 +84,9 @@ export function PlansSection() {
           "bg-gradient-to-t from-base-100/0 via-base-100/20 to-base-100"
         }
         buttonText={"Quero projeto Brothers"}
+        buttonLink={
+          "https://wa.me/5591993255856?text=Ol%C3%A1!%20Gostaria%20de%20participar%20do%20projeto%20Brothers"
+        }
       />
     </div>
   );
