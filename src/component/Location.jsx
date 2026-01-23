@@ -8,7 +8,8 @@ export function Location() {
           Onde Estamos
         </h2>
         <p className="text-lg text-base-light-100 mb-6">
-          O NativaFit está localizado em Bragança, Pará.
+          A NativaFit está localizada na Av. Nezeazeno Ferreira, em frente ao
+          posto Ajuruteua, no Bairro do Perpétuo Socorro, em Bragança, Pará.
         </p>
         <div className="relative w-full h-96 mb-6">
           <iframe
