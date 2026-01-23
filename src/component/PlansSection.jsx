@@ -66,17 +66,18 @@ export function PlansSection() {
         customDivCss={
           "bg-gradient-to-b from-black/0 via-base-100/30 to-base-100"
         }
+        buttonText={"Quero projeto Família"}
       />
       <ReusableHero
         title={"Projeto Brothers"}
         subtitle={
-          "Traga seus amigos juntos e paguem o preço do anual em pagamentos mensais (limite máximo de 6 pessoas)"
+          "Traga seus amigos juntos e paguem o preço do anual em pagamentos mensais (a partir de 5 pessoas)"
         }
         backgroundImage="./amigosTreino.jpg"
         customDivCss={
           "bg-gradient-to-t from-base-100/0 via-base-100/20 to-base-100"
         }
-        buttonText={"Quero projeto Família/Brothers"}
+        buttonText={"Quero projeto Brothers"}
       />
     </div>
   );
