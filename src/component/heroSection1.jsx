@@ -9,7 +9,7 @@ export function HeroSection1() {
           <h1 className="text-2xl md:text-6xl font-display font-bold leading-tight mb-4">
             A Nativa Fit é <br />
             Para você <br />
-            que: <br />
+            que quer: <br />
           </h1>
           <ul className="text-gray-300 text-base space-y-2 list-disc list-inside marker:text-green-500 mb-6">
             <li>Segurança e conforto em cada treino</li>
