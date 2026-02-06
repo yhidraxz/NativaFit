@@ -3,13 +3,22 @@ import { useState, useEffect, useRef } from "react";
 function PlanCard({ plan, isActive }) {
   return (
     <div
-      className={`w-[70vw] md:w-[320px] h-auto flex-shrink-0 snap-center
-      rounded-2xl p-6 shadow-xl transition-all duration-300
-      ${
-        isActive
-          ? "scale-105 bg-green-700 text-white"
-          : "bg-zinc-900 text-white opacity-80"
-      }`}
+      className={`
+        w-[70vw] md:w-[320px]
+        h-auto
+        flex-shrink-0
+        snap-center
+        rounded-2xl
+        p-6
+        shadow-xl
+        transition-all
+        duration-300
+        ${
+          isActive
+            ? "scale-105 md:scale-110 bg-green-700 text-white"
+            : "bg-zinc-900 text-white opacity-80"
+        }
+      `}
     >
       <h3 className="text-xl font-bold mb-2">{plan.title}</h3>
       <p className="text-2xl font-extrabold mb-2">{plan.price}</p>
@@ -42,11 +51,18 @@ export function ProjectPlansSection({ title, subtitle, plans }) {
   const scrollRef = useRef(null);
   const middleIndex = Math.floor(plans.length / 2);
 
-  // 🔹 Start scroll in the middle
+  // 🔹 Start scroll in the middle (mobile)
   useEffect(() => {
     if (!scrollRef.current) return;
 
     const container = scrollRef.current;
+
+    // No desktop não precisa scroll inicial
+    if (window.innerWidth >= 768) {
+      setActiveIndex(middleIndex);
+      return;
+    }
+
     const firstCard = container.children[0];
     if (!firstCard) return;
 
@@ -61,10 +77,13 @@ export function ProjectPlansSection({ title, subtitle, plans }) {
     setActiveIndex(middleIndex);
   }, [middleIndex]);
 
-  // 🔹 Update active index based on scroll
+  // 🔹 Update active index based on scroll (mobile)
   const handleScroll = () => {
     const container = scrollRef.current;
     if (!container) return;
+
+    // No desktop não precisa recalcular
+    if (window.innerWidth >= 768) return;
 
     const containerCenter = container.scrollLeft + container.offsetWidth / 2;
 
@@ -98,7 +117,18 @@ export function ProjectPlansSection({ title, subtitle, plans }) {
       <div
         ref={scrollRef}
         onScroll={handleScroll}
-        className="flex overflow-x-auto overflow-y-hidden gap-6 px-6 snap-x snap-mandatory scrollbar-hide"
+        className="
+          flex
+          gap-6
+          px-6
+          overflow-x-auto md:overflow-x-visible
+          snap-x snap-mandatory
+          scrollbar-hide
+
+          md:justify-center
+          md:max-w-6xl
+          md:mx-auto
+        "
       >
         {plans.map((plan, index) => (
           <PlanCard

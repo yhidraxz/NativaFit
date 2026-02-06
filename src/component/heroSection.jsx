@@ -2,7 +2,7 @@ import React from "react";
 
 export function HeroSection() {
   return (
-    <div className="relative h-[710px] w-full bg-cover bg-center text-white bg-[url('/nativaFrente.jpg')]">
+    <div className="relative h-[710px] w-full bg-cover bg-center text-white ml:bg-[url('/nativaFrentePC.jpg')] bg-[url('/nativaFrente.jpg')]">
       {/* Dark overlay for readability */}
       <div className="absolute inset-0 bg-black/50"></div>
 

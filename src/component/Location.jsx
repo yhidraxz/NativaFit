@@ -4,7 +4,7 @@ export function Location() {
   return (
     <section className="py-12 bg-gradient-to-b from-black/95 to-base-100 w-screen">
       <div className="container mx-auto text-center">
-        <h2 className="text-3xl font-medium text-primary text-primary bg-gold-gradient bg-clip-text text-transparent mb-4">
+        <h2 className="text-4xl font-bold text-primary text-primary bg-gold-gradient bg-clip-text text-transparent mb-4">
           Onde Estamos
         </h2>
         <p className="text-lg text-base-light-100 mb-6">
