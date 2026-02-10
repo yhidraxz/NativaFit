@@ -94,7 +94,7 @@ export function ServicesSection() {
         {/* CTA */}
         <div className="mt-14 flex justify-center">
           <a
-            href="https://wa.me/5591993255856?text=Oi!%20Gostaria%20de%20mais%20informa%C3%A7%C3%B5es%20sobre%20a%20nativa"
+            href="https://wa.me/5591992487292?text=Oi!%20Gostaria%20de%20mais%20informa%C3%A7%C3%B5es%20sobre%20a%20nativa"
             target="_blank"
             rel="noopener noreferrer"
             className="

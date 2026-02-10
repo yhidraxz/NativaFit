@@ -19,7 +19,7 @@ export function HeroSection1() {
           </ul>
 
           <a
-            href="https://wa.me/5591993255856?text=Oi!%20Gostaria%20de%20mais%20informa%C3%A7%C3%B5es%20sobre%20a%20nativa"
+            href="https://wa.me/5591992487292?text=Oi!%20Gostaria%20de%20mais%20informa%C3%A7%C3%B5es%20sobre%20a%20nativa"
             target="_blank"
             rel="noopener noreferrer"
             className="text-white font-semibold text-lg w-fit underline cursor-pointer"

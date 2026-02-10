@@ -23,7 +23,7 @@ export function Location() {
         <div className="text-center">
           <div className="mt-8 flex justify-center">
             <a
-              href="https://wa.me/5591993255856?text=Oi!%20Gostaria%20de%20agendar%20uma%20experi%C3%AAncia"
+              href="https://wa.me/5591992487292?text=Oi!%20Gostaria%20de%20agendar%20uma%20experi%C3%AAncia"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-block w-4/5 text-lg px-6 py-2.5 font-semibold text-[#232323] shadow-md"
