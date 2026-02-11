@@ -122,6 +122,7 @@ export function ProjectPlansSection({ title, subtitle, plans }) {
           gap-6
           px-6
           overflow-x-auto md:overflow-x-visible
+          overflow-y-hidden
           snap-x snap-mandatory
           scrollbar-hide
 
