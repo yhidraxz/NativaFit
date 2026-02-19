@@ -93,8 +93,8 @@ export function PlansSection() {
 
       {/* Projeto Brothers */}
       <ReusableHero
-        title="Projeto Brothers"
-        subtitle="Traga seus amigos juntos e paguem o preço do anual em pagamentos mensais (a partir de 5 pessoas)"
+        title="Comunidade Free Time"
+        subtitle="Acompanhamento individual com professor dedicado e horários flexíveis para você treinar no seu tempo"
         backgroundImage={brothersBg}
         customDivCss="bg-gradient-to-t from-base-100/0 via-base-100/20 to-base-100"
         buttonText="Quero projeto Brothers"
