@@ -97,7 +97,7 @@ export function PlansSection() {
         subtitle="Acompanhamento individual com professor dedicado e horários flexíveis para você treinar no seu tempo"
         backgroundImage={brothersBg}
         customDivCss="bg-gradient-to-t from-base-100/0 via-base-100/20 to-base-100"
-        buttonText="Quero projeto Brothers"
+        buttonText="Quero fazer parte"
         buttonLink="https://wa.me/5591992487292?text=Ol%C3%A1!%20Gostaria%20de%20participar%20do%20projeto%20Brothers"
       />
     </div>
